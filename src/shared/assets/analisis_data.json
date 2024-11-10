@@ -1,0 +1,27 @@
+{
+  "secciones": [
+    {
+      "titulo": "Patrones de Viaje",
+      "descripcion": [
+        "La mayoría de los viajes se realizan dentro de la zona de distancia media (D02_[2000-5000]) y zona de distancia alta (D03_[5000-10000])",
+        "Hay un número significativo de viajes de larga distancia (D04_[10000-20000])",
+        "Los usuarios de mayor edad (A02_[65-100]) tienden a realizar viajes de distancias medias y altas"
+      ]
+    },
+    {
+      "titulo": "Áreas de Baja Cobertura",
+      "descripcion": [
+        "La zona 12 parece tener una baja cobertura, ya que solo se registra un viaje con origen en esta zona",
+        "La zona 14 también muestra una baja cobertura, con solo 3 viajes registrados"
+      ]
+    },
+    {
+      "titulo": "Oportunidades de Mejora",
+      "descripcion": [
+        "Aumentar la frecuencia y cobertura de las rutas que conectan las zonas 12 y 14 con las zonas de mayor demanda",
+        "Considerar la implementación de rutas directas o con menos paradas para los viajes de larga distancia, especialmente para los usuarios de mayor edad"
+      ],
+      "fecha_analisis":	"2024-11-09 22:30:46"
+    }
+  ]
+}

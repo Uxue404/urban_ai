@@ -1,0 +1,23 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #sidenav mode="side" [opened]="isOpened" >
+    <mat-toolbar class="flex justify-center">
+      <mat-icon>person</mat-icon>
+    </mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item href="#">Dashboard 1</a>
+      <a mat-list-item href="#">Dashboard 2</a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar class="fixed-toolbar" color="primary">
+      <button mat-icon-button (click)="toggleSidenav()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>UrbanIA</span>
+    </mat-toolbar>
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
